@@ -27,54 +27,56 @@ Type out a message in https://github.com/orgs/acm-avv/discussions/2 with the fol
 2. Do not try to contact the project manager personally unless they are open to it.
 4. Maintain decorum and avoid any misbehavior with the project manager. This can be subjected to disqualification.
 5. Send us an update every week with regards to your progress for your respective project. If we do not receive an update for more than 10 days then your team will be disqualified automatically.
+   
+---
 
 ## Project Description
 
-A dedicated To-Do List and Employee Collaboration Application will be developed to
-streamline task management, internal communication, and employee oversight
-within the company. This application will be tailored for organizational use and will
-ensure that team productivity is enhanced while administrative control is maintained.
-All functionalities will be designed with scalability and user role separation in mind.
-Distinct user roles will be defined, and access will be granted based on those roles.
-Employees will be categorized into roles such as Admin, Manager, and Employee.
-Specific permissions will be assigned to each role to ensure data security and
-accountability. Full access to user activities, including chats and task progress, will
-be granted to Admins. Managers will be allowed to create tasks, assign
-responsibilities, and monitor progress, while Employees will be given access to only
-their assigned tasks and communication channels relevant to their teams.
-Tasks will be created, assigned, and tracked within the platform. Each task will be
-described with details such as title, description, due date, and priority level. Tasks will
-be marked with statuses like "To-Do," "In Progress," and "Completed," and changes
-in status will be recorded automatically. Reminders and deadline alerts will be
-triggered as per predefined schedules to ensure that no task deadlines are missed.
-File attachments and comments will also be allowed for each task to support
-seamless collaboration.
-Employees will be grouped into teams or departments, and they will be added or
-removed by Admins or Managers. Custom roles within each group will be assigned
-based on operational needs. Task boards will be created per group, and shared
-responsibilities will be managed collaboratively. Group membership changes and
-task updates will be logged for transparency.
-A chat feature will be incorporated to facilitate both group and private
-communication. All chats will be stored securely, and they will be made accessible to
-the Admin if monitoring is required. The ability to view or review conversations will be
-granted to Admins in accordance with company policy. Message deletion, media
-sharing, and real-time notifications will be supported, while usage reports and
-flagged messages will be generated for administrative review.
-A dashboard will be provided for all users. For Admins, performance metrics, task
-completion rates, employee activity, and communication summaries will be
-displayed. Employees will be shown their personal progress, upcoming deadlines,
-and task history. These insights will be generated in real-time and will be exportable
-for further analysis.
-A complete employee directory will be maintained, where profile information such as
-role, department, contact details, and assigned tasks will be stored. The directory will
-be searchable to enable easier collaboration and task delegation among colleagues.
+Detailed Description: https://drive.google.com/file/d/1xBzS92xe4Jtr61vBODo_MtxauMrtHHDb/view?usp=sharing
 
-System notifications will be triggered automatically for events such as new task
-assignments, upcoming deadlines, and important chat messages. Daily or weekly
-summaries will be delivered to users to keep them informed of their responsibilities.
-From the Admin panel, employees will be added, removed, or reassigned as
-required. User promotions or demotions will be carried out through a secure
-interface. Chat logs, audit trails, and system activity reports will be accessed by
-Admins whenever needed for compliance or evaluation purposes. Security protocols
-and role-based data restrictions will be enforced throughout the application to ensure
-organizational data is protected.
+The **To-Do List and Employee Collaboration Application** aims to streamline task management, internal communication, and employee oversight within an organization. It's designed to enhance team productivity while maintaining administrative control, with scalability and user role separation as core tenets.
+
+* **User Roles & Permissions:**
+    * **Distinct Roles:** Admins, Managers, and Employees will have clearly defined roles.
+    * **Role-Based Access:** Access and permissions will be granted based on these roles, ensuring data security and accountability.
+    * **Admin Privileges:** Full access to user activities, including chats and task progress.
+    * **Manager Privileges:** Ability to create and assign tasks, and monitor progress.
+    * **Employee Privileges:** Access limited to their assigned tasks and relevant communication channels.
+
+* **Task Management:**
+    * **Creation & Assignment:** Tasks can be created, assigned, and tracked within the platform.
+    * **Task Details:** Each task will include a title, description, due date, and priority level.
+    * **Task Statuses:** Tasks will progress through "To-Do," "In Progress," and "Completed" statuses, with automatic status change recording.
+    * **Notifications:** Reminders and deadline alerts will be triggered based on predefined schedules.
+    * **Collaboration Features:** File attachments and comments will be supported for each task.
+
+* **Team & Group Management:**
+    * **Group Creation:** Employees can be grouped into teams or departments, with addition/removal managed by Admins or Managers.
+    * **Custom Roles:** Custom roles can be assigned within each group based on operational needs.
+    * **Task Boards:** Group-specific task boards for collaborative management of shared responsibilities.
+    * **Transparency:** Group membership changes and task updates will be logged.
+
+* **Communication Features (Chat):**
+    * **Chat Options:** Supports both group and private communication.
+    * **Secure Storage:** All chats will be securely stored.
+    * **Admin Monitoring:** Admins will have access to chats for monitoring, in accordance with company policy.
+    * **Core Features:** Message deletion, media sharing, and real-time notifications.
+    * **Reporting:** Usage reports and flagged messages will be generated for administrative review.
+
+* **User Dashboards:**
+    * **Admin Dashboard:** Displays performance metrics, task completion rates, employee activity, and communication summaries.
+    * **Employee Dashboard:** Shows personal progress, upcoming deadlines, and task history.
+    * **Real-time & Exportable:** Insights generated in real-time and exportable for further analysis.
+
+* **Employee Directory:**
+    * **Comprehensive Information:** Maintains profile information including role, department, contact details, and assigned tasks.
+    * **Searchable:** The directory will be searchable for easier collaboration and task delegation.
+
+* **System Notifications:**
+    * **Automated Triggers:** Notifications for new task assignments, upcoming deadlines, and important chat messages.
+    * **Summaries:** Daily or weekly summaries delivered to users to keep them informed.
+
+* **Admin Panel & Security:**
+    * **User Management:** Admins can add, remove, or reassign employees, and manage promotions/demotions securely.
+    * **Reporting & Auditing:** Access to chat logs, audit trails, and system activity reports for compliance or evaluation.
+    * **Data Protection:** Enforcement of security protocols and role-based data restrictions throughout the application.
