@@ -10,6 +10,12 @@ addButton.addEventListener("click", () => {
         const li = document.createElement("li");
         li.textContent = taskText;
 
+        li.style.cursor = "pointer";
+
+        li.addEventListener("click", () => {
+            li.classList.toggle("completed");
+        });
+
         const deleteBtn = document.createElement("button");
         deleteBtn.textContent = "X";
         deleteBtn.style.marginLeft = "10px";
@@ -29,6 +35,6 @@ addButton.addEventListener("click", () => {
         taskList.appendChild(li);
 
         taskInput.value = "";
-        
+
     }
 });

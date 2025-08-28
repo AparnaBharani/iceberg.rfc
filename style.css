@@ -40,3 +40,8 @@ button:hover {
     border-radius: 5px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
